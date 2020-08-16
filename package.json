@@ -1,0 +1,23 @@
+{
+  "name": "cron_expression_builder",
+  "version": "0.1.1",
+  "description": "cronjob expression builder for human",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golkhandani/cron_expression_builder.git"
+  },
+  "keywords": [
+    "cronjob",
+    "expression"
+  ],
+  "author": "golkhandani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golkhandani/cron_expression_builder/issues"
+  },
+  "homepage": "https://github.com/golkhandani/cron_expression_builder#readme"
+}
