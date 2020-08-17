@@ -1,8 +1,8 @@
 {
   "name": "cron_expression_builder",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "cronjob expression builder for human",
-  "main": "index.js",
+  "main": "./build/cjs/index.js",
   "scripts": {
     "build": "npm run build:cjs",
     "build:es2015": "tsc --project tsconfig.prod.esm2015.json",
