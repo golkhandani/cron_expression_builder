@@ -1,10 +1,14 @@
 {
   "name": "cron_expression_builder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "cronjob expression builder for human",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:cjs",
+    "build:es2015": "tsc --project tsconfig.prod.esm2015.json",
+    "build:esm5": "tsc --project tsconfig.prod.esm5.json",
+    "build:cjs": "tsc --project tsconfig.prod.cjs.json",
+    "build:types": "tsc --project tsconfig.prod.types.json"
   },
   "repository": {
     "type": "git",
